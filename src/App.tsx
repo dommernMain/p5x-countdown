@@ -5,14 +5,14 @@ function getRandomInRange(min: number, max: number) {
 }
 
 const images = [
-  '/backgrounds/p5x-1.jpg',
-  '/backgrounds/p5x-2.jpg',
-  '/backgrounds/p5x-3.jpg',
-  '/backgrounds/p5x-4.jpg',
-  '/backgrounds/p5x-5.jpg',
-  '/backgrounds/p5x-6.jpg',
-  '/backgrounds/p5x-7.jpg',
-  '/backgrounds/p5x-8.jpg',
+  '/src/assets/backgrounds/p5x-1.jpg',
+  '/src/assets/backgrounds/p5x-2.jpg',
+  '/src/assets/backgrounds/p5x-3.jpg',
+  '/src/assets/backgrounds/p5x-4.jpg',
+  '/src/assets/backgrounds/p5x-5.jpg',
+  '/src/assets/backgrounds/p5x-6.jpg',
+  '/src/assets/backgrounds/p5x-7.jpg',
+  '/src/assets/backgrounds/p5x-8.jpg',
 ];
 
 function App() {
