@@ -1,19 +1,20 @@
 import { useEffect, useState } from "react";
 
+import p1 from './assets/backgrounds/p5x-1.jpg';
+import p2 from './assets/backgrounds/p5x-2.jpg';
+import p3 from './assets/backgrounds/p5x-3.jpg';
+import p4 from './assets/backgrounds/p5x-4.jpg';
+import p5 from './assets/backgrounds/p5x-5.jpg';
+import p6 from './assets/backgrounds/p5x-6.jpg';
+import p7 from './assets/backgrounds/p5x-7.jpg';
+import p8 from './assets/backgrounds/p5x-8.jpg';
+
+
 function getRandomInRange(min: number, max: number) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-const images = [
-  '/src/assets/backgrounds/p5x-1.jpg',
-  '/src/assets/backgrounds/p5x-2.jpg',
-  '/src/assets/backgrounds/p5x-3.jpg',
-  '/src/assets/backgrounds/p5x-4.jpg',
-  '/src/assets/backgrounds/p5x-5.jpg',
-  '/src/assets/backgrounds/p5x-6.jpg',
-  '/src/assets/backgrounds/p5x-7.jpg',
-  '/src/assets/backgrounds/p5x-8.jpg',
-];
+const images = [p1, p2, p3, p4, p5, p6, p7, p8];
 
 function App() {
   const [countdownText, setCountdownText] = useState("Kalkulerer tid...");
